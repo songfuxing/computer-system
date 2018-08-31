@@ -38,5 +38,7 @@ int  main(int x) {
     printf("%d", *px);
     int * p = (int *)0x7ffee74478e4;
     printf("\n");
+    char s = "12345";
+    show_bytes(s,6);
     return 0;
 }
